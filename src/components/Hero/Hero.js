@@ -17,8 +17,8 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
         My name is Tomas Kuprinskas and I am junior full stack web developer, I
-        have a passion for web development and I am currently working on my main
-        project which is related to my hobbies.
+        have a passion for web development and I am currently working as a
+        freelancer and I am always looking for new challenges and opportunities.
       </SectionText>
       <Button
         onClick={() =>

@@ -32,6 +32,7 @@ const Technologies = () => (
             CSS (SCSS) <br />
             JavaScript <br />
             React.js <br />
+            Next.js <br />
             TypeScript
           </ListParagraph>
         </ListContainer>
@@ -45,6 +46,20 @@ const Technologies = () => (
             Express.js <br />
             MySQL / MongoDB <br />
             Sanity CMS
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size='3rem' />
+        <ListContainer>
+          <ListTitle>Styling</ListTitle>
+          <ListParagraph>
+            CSS <br />
+            SCSS <br />
+            Styled Components <br />
+            Material UI <br />
+            Bootstrap <br />
+            Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>

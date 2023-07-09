@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
   BlogCard,
@@ -12,21 +12,21 @@ import {
   TitleContent,
   UtilityList,
   Img,
-} from "./ProjectsStyles";
+} from './ProjectsStyles';
 import {
   Section,
   SectionDivider,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import { projects } from "../../constants/constants";
+} from '../../styles/GlobalComponents';
+import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section nopadding id='projects'>
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {projects.map(
-        ({ id, image, title, description, tags, source, visit }) => (
+        ({ id, image, title, description, tags, website, visit }) => (
           <BlogCard key={id}>
             <Img src={image} alt={title} />
             <TitleContent>
@@ -44,8 +44,14 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
+              {visit && (
+                <ExternalLinks href={visit.link} target='_blank'>
+                  {visit.title}
+                </ExternalLinks>
+              )}
+              <ExternalLinks href={website} target='_blank'>
+                Website
+              </ExternalLinks>
             </UtilityList>
           </BlogCard>
         )

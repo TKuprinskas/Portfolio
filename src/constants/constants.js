@@ -5,9 +5,8 @@ export const projects = [
       'This is the main website for Tennis Partner, it is mobile friendly as well. It was built mainly with React, CSS, Styled Components, Routing.',
     image: '/images/tp_main.png',
     tags: ['HTML', 'CSS', 'JavaScript', 'React JS'],
-    source: 'https://www.tenisopartneris.lt/',
-    visit:
-      'https://github.com/TKuprinskas/Teniso-Partneris-Frontend---FastComet',
+    website: 'https://www.tenisopartneris.lt/',
+    visit: '',
     id: 0,
   },
   {
@@ -16,8 +15,8 @@ export const projects = [
       'This is Tennis Partner search system. Once registered, you can login to post tennis partner search, find partner in already existing searches. Challenge other players. Check TOP players. Search for users. Enter results of the matches and track statistics. You will also get Emails and SMS on register, password reset, partner found, match canceled, challenge request.',
     image: '/images/tp_sistema.png',
     tags: ['Node JS', 'Express', 'MySQL', 'React JS', 'Styled Components'],
-    source: 'https://www.tenisopartneris.lt/login',
-    visit: 'https://github.com/TKuprinskas/full-React-front',
+    website: 'https://www.tenisopartneris.lt/login',
+    visit: '',
     id: 1,
   },
   {
@@ -26,9 +25,22 @@ export const projects = [
       'This is a cleaning service static website. It was built mainly with Next JS, Material UI and Sanity CMS.',
     image: '/images/svarius.png',
     tags: ['Next JS', 'Material UI', 'Sanity CMS'],
-    source: 'https://www.svarius.lt/',
-    visit: 'https://github.com/TKuprinskas/Svarius-nextjs',
-    id: 1,
+    website: 'https://www.svarius.lt/',
+    visit: '',
+    id: 2,
+  },
+  {
+    title: 'HTM - High Tech Metal Australia made by K-Design',
+    description:
+      'Custom build website for HTM Australia. It was built mainly with Next JS, CSS Modules and Sanity CMS. Design was made according to Figma design.',
+    image: '/images/htm.png',
+    tags: ['Next JS', 'CSS Modules', 'Sanity CMS', 'Figma'],
+    website: 'https://www.hightechmedical.com.au/',
+    visit: {
+      title: 'K-Design',
+      link: 'https://k-design.io/',
+    },
+    id: 3,
   },
 ];
 

@@ -1,16 +1,11 @@
 import React from 'react';
 
-import {
-  Section,
-  SectionDivider,
-  SectionTitle,
-} from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 2000, text: 'Hours of coding' },
-  { number: 4, text: 'Websites Live' },
-  { number: 1, text: 'Junior Full Stack Certificate' },
+  { number: 4500, text: 'Hours of coding' },
+  { number: 6, text: 'Websites Live' },
 ];
 
 const Acomplishments = () => (

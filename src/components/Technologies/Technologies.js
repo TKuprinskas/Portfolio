@@ -1,27 +1,14 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import {
-  Section,
-  SectionDivider,
-  SectionText,
-  SectionTitle,
-} from '../../styles/GlobalComponents';
-import {
-  List,
-  ListContainer,
-  ListItem,
-  ListParagraph,
-  ListTitle,
-} from './TechnologiesStyles';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
   <Section id='tech'>
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I have experience working with the following technologies:
-    </SectionText>
+    <SectionText>I have experience working with the following technologies:</SectionText>
     <List>
       <ListItem>
         <DiReact size='3rem' />
@@ -29,7 +16,6 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             HTML5 <br />
-            CSS (SCSS) <br />
             JavaScript <br />
             React.js <br />
             Next.js <br />
@@ -44,8 +30,11 @@ const Technologies = () => (
           <ListParagraph>
             Node.js <br />
             Express.js <br />
-            MySQL / MongoDB <br />
-            Sanity CMS
+            MySQL <br />
+            MongoDB <br />
+            PostGreSQL <br />
+            Sanity CMS <br />
+            Google Cloud Services
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -58,7 +47,7 @@ const Technologies = () => (
             SCSS <br />
             Styled Components <br />
             Material UI <br />
-            Bootstrap <br />
+            Tailwind CSS <br />
             Figma
           </ListParagraph>
         </ListContainer>

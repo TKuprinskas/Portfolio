@@ -1,20 +1,11 @@
 export const projects = [
   {
-    title: 'Tennis Partner Website',
-    description: 'This is the main website for Tennis Partner, it is mobile friendly as well. It was built mainly with React, CSS, Styled Components, Routing.',
-    image: '/images/tp_main.png',
-    tags: ['HTML', 'CSS', 'JavaScript', 'React JS'],
-    website: 'https://tenisopartneris.lt/',
-    visit: '',
-    id: 0,
-  },
-  {
-    title: 'Tennis Partner Search',
+    title: 'Tennis Partner Landing + System',
     description:
-      'This is Tennis Partner search system. Once registered, you can login to post tennis partner search, find partner in already existing searches. Challenge other players. Check TOP players. Search for users. Enter results of the matches and track statistics. You will also get Emails and SMS on register, password reset, partner found, match canceled, challenge request.',
-    image: '/images/tp_sistema.png',
-    tags: ['Node JS', 'Express', 'MySQL', 'React JS', 'Styled Components'],
-    website: 'https://tenisopartneris.lt/login',
+      'Fully rebranded project for Tennis Partner. Following the design from Figma, I have built a new website and system for Tennis Partner. It was built mainly with React, Node.JS, MySQL, Material UI.',
+    image: '/images/tpartneris.png',
+    tags: ['Node JS', 'Express', 'MySQL', 'React JS', 'Material UI', 'Figma'],
+    website: 'https://tenisopartneris.lt',
     visit: '',
     id: 1,
   },

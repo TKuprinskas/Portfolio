@@ -1,17 +1,16 @@
 export const projects = [
   {
     title: 'Tennis Partner Landing + System',
-    description:
-      'Fully rebranded project for Tennis Partner. Following the design from Figma, I have built a new website and system for Tennis Partner. It was built mainly with React, Node.JS, MySQL, Material UI.',
+    description: 'Custom build landing page, together with inside system for registered users with tournaments, marketplaces, tennis courts availability etc.',
     image: '/images/tpartneris.png',
-    tags: ['Node JS', 'Express', 'MySQL', 'React JS', 'Material UI', 'Figma'],
+    tags: ['React JS', 'Node JS', 'MySQL', 'Material UI', 'Figma'],
     website: 'https://tenisopartneris.lt',
     visit: '',
     id: 1,
   },
   {
     title: 'Svarius - Cleaning Service',
-    description: 'This is a cleaning service static website. It was built mainly with Next JS, Material UI and Sanity CMS.',
+    description: 'Custom build website with integrated Sanity CMS.',
     image: '/images/svarius.png',
     tags: ['Next JS', 'Material UI', 'Sanity CMS'],
     website: 'https://svarius.lt/',
@@ -20,8 +19,7 @@ export const projects = [
   },
   {
     title: 'HTM - High Tech Metal Australia made by K-Design',
-    description:
-      'Custom build website for HTM Australia. It was built mainly with Next JS, CSS Modules and Sanity CMS. Design was made according to Figma design.',
+    description: 'Custom build website following Figma design provided by UI/UX designer.',
     image: '/images/htm.png',
     tags: ['Next JS', 'CSS Modules', 'Sanity CMS', 'Figma'],
     website: 'https://hightechmedical.com.au/',
@@ -33,7 +31,7 @@ export const projects = [
   },
   {
     title: 'Aukstaitijos Padelio Klubas',
-    description: 'Custom build website for Padel Club. It was built mainly with React, Node.JS and MySQL.',
+    description: 'Custom build padel courts reservation system with integrated Stripe payments platform.',
     image: '/images/padelis.png',
     tags: ['React JS', 'Material UI', 'Node JS', 'MySQL'],
     website: 'https://aukstaitijospadelioklubas.lt/',
@@ -42,12 +40,21 @@ export const projects = [
   },
   {
     title: 'Marijampolės Teniso kortai',
-    description: 'Custom build website for Marijampoles city tennis courts. It was built mainly with React, Node.JS and MySQL.',
+    description: 'Custom build tennis courts reservation system.',
     image: '/images/mtenisas.png',
     tags: ['React JS', 'Material UI', 'Node JS', 'MySQL'],
     website: 'https://mtenisas.lt/',
     visit: '',
     id: 5,
+  },
+  {
+    title: 'PanTenisas Teniso Aikštynas',
+    description: 'Custom build landing page and tennis courts reservation system. Reservation system is connected with Stripe payments platform.',
+    image: '/images/pantenisas.png',
+    tags: ['React JS', 'Material UI', 'Node JS', 'MySQL', 'Stripe'],
+    website: 'https://pantenisas.lt/',
+    visit: '',
+    id: 6,
   },
 ];
 
@@ -65,5 +72,5 @@ export const TimeLineData = [
   },
   { year: 2022, text: 'Junior React developer @ 1T2B' },
   { year: 2022, text: 'Junior React developer @ TGLab/Kickertech' },
-  { year: 2023, text: 'WEB developer @ K-Design' },
+  { year: 2023, text: 'FreeLancer @ TKuprinskas' },
 ];

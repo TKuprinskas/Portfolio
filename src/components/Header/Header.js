@@ -1,23 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
-import {
-  AiFillFacebook,
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
-} from 'react-icons/ai';
+import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import Head from 'next/head';
 
-import {
-  Container,
-  Div1,
-  Div2,
-  Div3,
-  NavLink,
-  SocialIcons,
-  Span,
-} from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () => (
   <Container>
@@ -32,8 +19,8 @@ const Header = () => (
             display: 'flex',
             alignItems: 'center',
             color: 'white',
-            marginBottom: '20px',
-          }}>
+          }}
+        >
           <DiCssdeck size='3rem' />
           <Span>T Kuprinskas</Span>
         </a>
